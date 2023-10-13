@@ -12,14 +12,15 @@
   --primary3: #f3f4f6;
   --secondary: #202c39; 
   --secondary1: #adb5bd; 
-  --secondary2: #6c757d; 
-  --secondary3: #0b090a; 
+  --secondary2:  #f3f4f6;
+  --secondary3: rgb(7, 8, 8); 
+  background-color: #0b090a;
 }
 
 
 @layer base {
   body {
-    @apply font-[Montserrat]
+    @apply font-[Montserrat];
   }
   .links {
     @apply px-1 dark:text-[var(--primary)] cursor-pointer hover:text-[var(--secondary2)] dark:text-[var(--primary1)] dark:hover:text-[var(--secondary2)]
